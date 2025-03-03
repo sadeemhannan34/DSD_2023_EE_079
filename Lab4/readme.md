@@ -29,6 +29,6 @@ bl = ((~(a[0])) & b[0]) | (a[0] & (~(b[0]))) | (a[1] & (~(b[1]))) | ((~(a[1])) &
 ## Circuit Diagram
 Following is a graphical representation of the combinational logic circuit, designed using draw.io:
 
-![Lab-4 Circuit Diagram](C:\Users\M.Sadeem Hannan\Desktop\DSD_2023_EE_079\Lab4\docs\lab4.drawio) 
+![Lab-4 Circuit Diagram](C:\Users\M.Sadeem Hannan\Desktop\DSD_2023_EE_079\Lab4\docs/lab4.drawio) 
 
 

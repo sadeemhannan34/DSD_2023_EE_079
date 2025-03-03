@@ -9,9 +9,6 @@ This project involves designing a driver circuit for a seven-segment display usi
 - Bench - `lab_5_tb.sv` - Testbench for verifying the functionality of the design through simulation.
 - Docs - `lab5.drawio` - Circuit diagram illustrating the logical structure and connections.
 
-## Circuit Diagram
-
-![Lab-5 Circuit Diagram](C:\Users\M.Sadeem Hannan\Desktop\DSD_2023_EE_079\Lab5\docs\lab5.png) 
 
 ## Truth Tables
 
