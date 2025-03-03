@@ -42,39 +42,38 @@ lab5 UUT (
 
 );
 
-//-----Initial Block for Providing 16 Input Combinations for 4 Inputs-----//
 initial begin
-    it_num = 4'b0000; it_sel = 3'b000;    //-----Input 1-----//
+    it_num = 4'b0000; it_sel = 3'b000;    
     #10;
-    it_num = 4'b0001; it_sel = 3'b001;    //-----Input 2-----//
+    it_num = 4'b0001; it_sel = 3'b001;    
     #10;
-    it_num = 4'b0010; it_sel = 3'b010;    //-----Input 3-----//
+    it_num = 4'b0010; it_sel = 3'b010;    
     #10;
-    it_num = 4'b0011; it_sel = 3'b011;    //-----Input 4-----//
+    it_num = 4'b0011; it_sel = 3'b011;    
     #10;
-    it_num = 4'b0100; it_sel = 3'b100;    //-----Input 5-----//
+    it_num = 4'b0100; it_sel = 3'b100;    
     #10;
-    it_num = 4'b0101; it_sel = 3'b101;    //-----Input 6-----//
+    it_num = 4'b0101; it_sel = 3'b101;    
     #10;
-    it_num = 4'b0110; it_sel = 3'b110;    //-----Input 7-----//
+    it_num = 4'b0110; it_sel = 3'b110;    
     #10;
-    it_num = 4'b0111; it_sel = 3'b111;    //-----Input 8-----//
+    it_num = 4'b0111; it_sel = 3'b111;    
     #10;
-    it_num = 4'b1000;                     //-----Input 9-----//
+    it_num = 4'b1000;                     
     #10;
-    it_num = 4'b1001;                     //-----Input 10-----//
+    it_num = 4'b1001;                     
     #10;
-    it_num = 4'b1010;                     //-----Input 11-----//
+    it_num = 4'b1010;                     
     #10;
-    it_num = 4'b1011;                     //-----Input 12-----//
+    it_num = 4'b1011;                     
     #10;
-    it_num = 4'b1100;                     //-----Input 13-----//
+    it_num = 4'b1100;                     
     #10;
-    it_num = 4'b1101;                     //-----Input 14-----//
+    it_num = 4'b1101;                     
     #10;
-    it_num = 4'b1110;                     //-----Input 15-----//
+    it_num = 4'b1110;                     
     #10;
-    it_num = 4'b1111;                     //-----Input 16-----//
+    it_num = 4'b1111;                     
     #10;
     $stop;
 end
