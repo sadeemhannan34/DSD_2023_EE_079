@@ -7,7 +7,7 @@ This project involves designing a driver circuit for a seven-segment display usi
 - RTL - `lab_5.sv` - Structural Verilog code implementing the circuit using minimized Boolean expressions from K-Maps.
 - RTL - `lab5_beh.sv` - Behavioral Verilog code implementing the seven-segment decoder.
 - Bench - `lab_5_tb.sv` - Testbench for verifying the functionality of the design through simulation.
-- Docs - `lab5.drawio` - Circuit diagram illustrating the logical structure and connections.
+
 
 
 ## Truth Tables
@@ -59,7 +59,7 @@ This project involves designing a driver circuit for a seven-segment display usi
 ### Testbench (`lab_5_tb.sv`)
 - Stimulates the circuit with various inputs.
 - Checks expected seven-segment outputs.
-- Simulated using QuestaSim.
+
 
 
 
